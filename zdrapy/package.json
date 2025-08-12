@@ -1,0 +1,9 @@
+{
+  "name": "scratchcards-cf-pages",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler pages dev ./public --compatibility-date=2024-10-01",
+    "migrate": "wrangler d1 execute scratchcards --file=./schema.sql"
+  },
+  "devDependencies": { "wrangler": "^3.80.0" }
+}

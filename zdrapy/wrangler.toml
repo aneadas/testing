@@ -1,0 +1,7 @@
+name = "scratchcards"
+compatibility_date = "2024-10-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "scratchcards"
+# database_id będzie ustawione automatycznie w CF; lokalnie można pominąć
